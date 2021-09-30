@@ -11,6 +11,7 @@
   },
   "name": "testing",
   "version": "1.0.0",
+  "privat": true,
   "description": "First project with WebdriverIO",
   "directories": {
     "test": "test"
@@ -23,6 +24,5 @@
     "url": "git+https://github.com/lavazka/Testing.git"
   },
   "author": "Lavazka <lavazka@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/lavazka/Testing#readme"
+  "license": "MIT"
 }
