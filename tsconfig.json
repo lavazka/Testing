@@ -9,6 +9,6 @@
             "@wdio/mocha-framework"
         ],
         "module": "commonjs",
-        "target": "es5"
+        "target": "es6"
     }
 }
