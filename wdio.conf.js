@@ -1,4 +1,6 @@
-require("ts-node").register({ files: true });
+require("tsconfig-paths/register");
+require('ts-node').register({ files: true , logError: true});
+module.exports = require("./wdio.local.config");
 
 exports.config = {
     //
