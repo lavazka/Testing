@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "children" : [ {
+        "name" : "wait for the hidden element to show",
+        "uid" : "569e9f326d8b1a5",
+        "parentUid" : "df94dcb86fdca65702f538174e08abca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633526037923,
+          "stop" : 1633526037948,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.71" ]
+      } ],
+      "uid" : "df94dcb86fdca65702f538174e08abca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

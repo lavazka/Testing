@@ -1,0 +1,82 @@
+{
+  "uid" : "569e9f326d8b1a5",
+  "name" : "wait for the hidden element to show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to show",
+  "historyId" : "6e11205df10fb29296964fa5c1a58769",
+  "time" : {
+    "start" : 1633526037923,
+    "stop" : 1633526037948,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (/Users/natalu/Documents/GitHub/Testing/test/specs/dynamic-loading.e2e.js:19:38)\n                    at Context.executeAsync (/Users/natalu/Documents/GitHub/Testing/node_modules/@wdio/mocha-framework/node_modules/@wdio/utils/build/shim.js:323:27)\n                    at Context.testFrameworkFnWrapper (/Users/natalu/Documents/GitHub/Testing/node_modules/@wdio/mocha-framework/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b202941418772ec",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1633524863259,
+        "stop" : 1633524863306,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "59b0a4dac146c627",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1633524738698,
+        "stop" : 1633524738811,
+        "duration" : 113
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "569e9f326d8b1a5.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

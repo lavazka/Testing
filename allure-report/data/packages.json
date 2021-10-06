@@ -1,0 +1,86 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Website",
+    "children" : [ {
+      "name" : "should be alive",
+      "uid" : "c8485cf62f6ea2f6",
+      "parentUid" : "6cee8c69dfb111cf3c10d0564ff97ea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633524863162,
+        "stop" : 1633524863194,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    } ],
+    "uid" : "6cee8c69dfb111cf3c10d0564ff97ea4"
+  }, {
+    "name" : "Main Page",
+    "children" : [ {
+      "name" : "Verify list items",
+      "uid" : "c39982b81bf09724",
+      "parentUid" : "9084a50424a55ea5552d3c0dd4282f01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633526037886,
+        "stop" : 1633526037995,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    } ],
+    "uid" : "9084a50424a55ea5552d3c0dd4282f01"
+  }, {
+    "name" : "Dynamic Loading Page",
+    "children" : [ {
+      "name" : "wait for the hidden element to show",
+      "uid" : "569e9f326d8b1a5",
+      "parentUid" : "e01f84cf91491d874129809d2da802d6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1633526037923,
+        "stop" : 1633526037948,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    } ],
+    "uid" : "e01f84cf91491d874129809d2da802d6"
+  }, {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "2429176d8b4bf752",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633526037940,
+        "stop" : 1633526053750,
+        "duration" : 15810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    }, {
+      "name" : "should logout and verified logout alert messages",
+      "uid" : "b504f3677c8fbd8d",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633526053751,
+        "stop" : 1633526053761,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    } ],
+    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+  } ]
+}

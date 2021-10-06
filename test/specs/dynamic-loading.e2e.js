@@ -2,14 +2,20 @@ describe('Dynamic Loading Page', () => {
     it('wait for the hidden element to show', () => {
         const btnStart = $("#start button");
         const textFinish = $("#finish h4");
+        const elLoading = $("#loading");
 
-        browser.url('https://the-internet.herokuapp.com/dynamic_loading/1');
+        browser.url('/dynamic_loading/1');
 
         btnStart.click();
 
-        browser.pause(10000);
+        // browser.pause(5000); 
 
-        expect(textFinish.getText()).toEqual('Hello World!');
+        elLoading.waitForDisplayed({timeout: 50000});
+
+        elLoading.waitForDisplayed({reverse: true});
+
+        //textFinish.waitForDisplayed();
+
+        expect(textFinish.getText()).toEqual("Hello World!");
     });
-
-});
+})

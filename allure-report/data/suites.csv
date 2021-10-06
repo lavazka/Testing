@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 06 16:13:57 EEST 2021","Wed Oct 06 16:14:13 EEST 2021","15810","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"passed","Wed Oct 06 16:13:57 EEST 2021","Wed Oct 06 16:13:57 EEST 2021","109","","Main Page","","Main Page","Verify list items","Verify list items",""
+"passed","Wed Oct 06 15:54:23 EEST 2021","Wed Oct 06 15:54:23 EEST 2021","32","","Website","","Website","should be alive","should be alive",""
+"failed","Wed Oct 06 16:13:57 EEST 2021","Wed Oct 06 16:13:57 EEST 2021","25","","Dynamic Loading Page","","Dynamic Loading Page","wait for the hidden element to show","wait for the hidden element to show",""
+"passed","Wed Oct 06 16:14:13 EEST 2021","Wed Oct 06 16:14:13 EEST 2021","10","","My Login application","","My Login application","should logout and verified logout alert messages","should logout and verified logout alert messages",""

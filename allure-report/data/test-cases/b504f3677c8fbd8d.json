@@ -1,0 +1,74 @@
+{
+  "uid" : "b504f3677c8fbd8d",
+  "name" : "should logout and verified logout alert messages",
+  "fullName" : "My Login application.should logout and verified logout alert messages",
+  "historyId" : "f2d80fe39036836db1a5eab516e2657a",
+  "time" : {
+    "start" : 1633526053751,
+    "stop" : 1633526053761,
+    "duration" : 10
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should logout and verified logout alert messages"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4be648d1694ebc61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633524866901,
+        "stop" : 1633524866905,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "600b41feed090414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633524742714,
+        "stop" : 1633524742717,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b504f3677c8fbd8d.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

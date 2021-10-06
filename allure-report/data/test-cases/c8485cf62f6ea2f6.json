@@ -1,0 +1,66 @@
+{
+  "uid" : "c8485cf62f6ea2f6",
+  "name" : "should be alive",
+  "fullName" : "Website.should be alive",
+  "historyId" : "2f9bf6773b2cbbd265d19a7f822323af",
+  "time" : {
+    "start" : 1633524863162,
+    "stop" : 1633524863194,
+    "duration" : 32
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Website"
+  }, {
+    "name" : "testClass",
+    "value" : "Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be alive"
+  }, {
+    "name" : "package",
+    "value" : "Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "253dd75a4dfbe715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633524738508,
+        "stop" : 1633524738528,
+        "duration" : 20
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8485cf62f6ea2f6.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}
